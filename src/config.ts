@@ -1,16 +1,15 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Ziliang Hong",
+  title: "Research Assistant",
+  description: "Portfolio website of Ziliang Hong",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "zilianghong2029@u.northwestern.edu",
+    linkedin: "https://www.linkedin.com/in/ziliang-hong/",
+    github: "https://github.com/Zilian4",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "I am a research assistant at the Department of Computer Science at Northwestern University, advised by Professor Ulas Bagci. I am interested in the intersection of machine learning, and computer vision with a particular focus on medical imaging.",
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
