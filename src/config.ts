@@ -10,7 +10,7 @@ export const siteConfig = {
   },
   aboutMe:
     "I am a research assistant at the Department of Computer Science at Northwestern University, advised by Professor Ulas Bagci. I am interested in the intersection of machine learning, and computer vision with a particular focus on medical imaging.",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  skills: ["Python", "Pytorch", "Linux", "Git", "Docker"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
@@ -68,8 +68,8 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
+      school: "Northwestern University",
+      degree: "Phd Student in Biomedical Engineering",
       dateRange: "2014 - 2018",
       achievements: [
         "Graduated Magna Cum Laude with 3.8 GPA",
@@ -78,13 +78,19 @@ export const siteConfig = {
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "University of Illinois, Chicago",
+      degree: "Master of Science in Electrical and Computer Engineering",
+      dateRange: "2022 - 2024",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Graduated with 3.8 GPA",
+      ],
+    },
+    {
+      school: "Southwest University",
+      degree: "Bachelor of Engineering in Intelligent Science and Technology",
+      dateRange: "2018 - 2022",
+      achievements: [
+        "Graduated with 3.8 GPA",
       ],
     },
   ],

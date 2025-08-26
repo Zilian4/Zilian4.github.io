@@ -23,10 +23,10 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      - run: npx astro build   # 等价于 npm run build（看 package.json）
+      - run: npx astro build  
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist         # Astro 默认输出目录
+          path: ./dist         
   deploy:
     needs: build
     environment:
