@@ -5,8 +5,9 @@ export const siteConfig = {
   accentColor: "#1d4ed8",
   social: {
     email: "zilianghong2029@u.northwestern.edu",
-    linkedin: "https://www.linkedin.com/in/ziliang-hong/",
+    linkedin: "https://www.linkedin.com/in/ziliang-hong-b52307254/",
     github: "https://github.com/Zilian4",
+    google_scholar: "https://scholar.google.com/citations?user=c935B4cAAAAJ&hl=en&oi=ao",
   },
   aboutMe:
     "I am a research assistant at the Department of Computer Science at Northwestern University, advised by Professor Ulas Bagci. I am interested in the intersection of machine learning, and computer vision with a particular focus on medical imaging.",
