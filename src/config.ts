@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Ziliang Hong",
-  title: "Research Assistant",
+  title: "PhD Student/Research Assistant",
   description: "Portfolio website of Ziliang Hong",
   accentColor: "#1d4ed8",
   social: {
@@ -10,9 +10,25 @@ export const siteConfig = {
     google_scholar: "https://scholar.google.com/citations?user=c935B4cAAAAJ&hl=en&oi=ao",
   },
   aboutMe:
-    "I am a research assistant at the Department of Computer Science at Northwestern University, advised by Professor Ulas Bagci. I am interested in the intersection of machine learning, and computer vision with a particular focus on medical imaging.",
+    "I am a PhD student at the Department of Biomedical Engineering at Northwestern University, advised by Professor Ulas Bagci. I am interested in the intersection of machine learning, and computer vision with a particular focus on medical imaging.",
   skills: ["Python", "Pytorch", "Linux", "Git", "Docker"],
-  projects: [
+  mainResearch: [
+    {
+      name: "Medical Image Analysis with Deep Learning",
+      description:
+        "Research on developing deep learning models for medical image segmentation and classification, focusing on CT scans and MRI images for early disease detection.",
+      link: "https://github.com/Zilian4/medical-imaging-research",
+      skills: ["Python", "PyTorch", "Medical Imaging", "Deep Learning"],
+    },
+    {
+      name: "Computer Vision for Healthcare",
+      description:
+        "Investigating computer vision techniques for automated diagnosis and treatment planning in clinical settings.",
+      link: "https://github.com/Zilian4/healthcare-vision",
+      skills: ["Computer Vision", "OpenCV", "TensorFlow", "Healthcare"],
+    },
+  ],
+  otherResearch: [
     {
       name: "AI Dev Roundup Newsletter",
       description:
@@ -33,6 +49,15 @@ export const siteConfig = {
         "Kit to jump-start your Chrome extension research with a variety of battle-tested starter templates & examples",
       link: "https://extensionkit.io/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
+    },
+  ],
+  projects: [
+    {
+      name: "Web Development Projects",
+      description:
+        "Various web development projects showcasing modern web technologies and best practices.",
+      link: "https://github.com/Zilian4/web-projects",
+      skills: ["React", "Node.js", "JavaScript", "CSS"],
     },
   ],
   experience: [
