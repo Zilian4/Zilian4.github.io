@@ -30,7 +30,7 @@ export const siteConfig = {
     {
       name: "ExtensionKit",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+        "Kit to jump-start your Chrome extension research with a variety of battle-tested starter templates & examples",
       link: "https://extensionkit.io/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
     },
