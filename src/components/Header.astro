@@ -1,8 +1,8 @@
 ---
 import { siteConfig } from "../config";
 
-const hasResearch = siteConfig.projects && siteConfig.projects.length > 0;
-const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
+const hasMainResearch = siteConfig.projects && siteConfig.projects.length > 0;
+const hasAdditionalResearch = siteConfig.experience && siteConfig.experience.length > 0;
 const hasRecentActivities = siteConfig.education && siteConfig.education.length > 0;
 ---
 
@@ -21,25 +21,25 @@ const hasRecentActivities = siteConfig.education && siteConfig.education.length 
         </a>
       </li>
       {
-        hasResearch && (
+        hasMainResearch && (
           <li>
             <a
               href="#projects"
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
-              Research
+              Main Research
             </a>
           </li>
         )
       }
       {
-        hasExperience && (
+        hasAdditionalResearch && (
           <li>
             <a
               href="#experience"
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
-              Experience
+              Additional Research
             </a>
           </li>
         )
