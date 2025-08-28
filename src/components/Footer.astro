@@ -2,6 +2,7 @@
 import { siteConfig } from "../config";
 
 const hasMainResearch = siteConfig.projects && siteConfig.projects.length > 0;
+const hasOtherResearch = siteConfig.projects && siteConfig.projects.length > 0;
 const hasAdditionalResearch = siteConfig.experience && siteConfig.experience.length > 0;
 const hasRecentActivities = siteConfig.education && siteConfig.education.length > 0;
 ---
@@ -137,6 +138,14 @@ const hasRecentActivities = siteConfig.education && siteConfig.education.length 
                 class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
               >
                 Main Research
+              </a>
+            )
+            hasOtherResearch && (
+              <a
+                href="#other-projects"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Other Research
               </a>
             )
           }
