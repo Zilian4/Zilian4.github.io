@@ -21,28 +21,26 @@ const hasRecentActivities = siteConfig.education && siteConfig.education.length 
           About
         </a>
       </li>
-      {
-        hasMainResearch && (
-          <li>
-            <a
-              href="#main-research"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
-            >
-              Main Research
-            </a>
-          </li>
-        )
-        hasOtherResearch && (
-          <li>
-            <a
-              href="#other-research"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
-            >
-              Other Research
-            </a>
-          </li>
-        )
-      }
+      {hasMainResearch && (
+        <li>
+          <a
+            href="#main-research"
+            class="text-gray-700 hover:text-black transition-colors font-medium"
+          >
+            Main Research
+          </a>
+        </li>
+      )}
+      {hasOtherResearch && (
+        <li>
+          <a
+            href="#other-research"
+            class="text-gray-700 hover:text-black transition-colors font-medium"
+          >
+            Other Research
+          </a>
+        </li>
+      )}
       {
         hasAdditionalResearch && (
           <li>
